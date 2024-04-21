@@ -48,3 +48,13 @@ JOIN OrderDetails ON Orders.OrderID = OrderDetails.OrderID
 JOIN Products ON OrderDetails.ProductID = Products.ProductID
 ORDER BY Price DESC 
 LIMIT 1
+
+
+(5) Дайте короткий ответ на вопрос: 
+в чем отличие БД от СУБД
+
+
+База данных - это место, где хранятся данные, 
+а система управления базами данных (СУБД) - это 
+инструмент, который позволяет организовывать 
+и управлять этими данными.
