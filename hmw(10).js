@@ -24,3 +24,11 @@ db.tracks.find(
   { duration_sec: {$gte: 60 * 30}}, 
   { _id: 0 } 
 )
+
+
+//4. Вывести страны и имена всех клиентов 
+
+db.users.find(
+  {},
+  { country: 1, fullname: 1, _id: 0 }
+)
